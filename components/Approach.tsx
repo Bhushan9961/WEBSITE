@@ -1,8 +1,3 @@
-
-
-
-
-
 "use client";
 
 
@@ -15,50 +10,46 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Your Partner in <span className="text-purple">Digital Excellence</span>
       </h1>
-      
+
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        
+
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Empowering Innovation"
+          icon={<AceternityIcon order="Our Vision" />}
+          des="At Rising IT Firm, our vision is to ignite innovation and empower businesses to excel in a rapidly evolving digital landscape. We are dedicated to being your strategic partner in navigating transformation, ensuring you thrive at every step."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
+
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Your Success Matters"
+          icon={<AceternityIcon order=" Mission" />}
+          des="We prioritize your success with a collaborative approach, customizing solutions to meet your unique needs while ensuring transparency and flexibility throughout the process."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-           
+
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-              // change the colors of the
+             
               [255, 166, 158],
               [221, 255, 247],
             ]}
             dotSize={2}
           />
-         
+
         </Card>
+
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Quality and Support"
+          icon={<AceternityIcon order="Commitment" />}
+          des="We are committed to excellence. Our rigorous quality assurance guarantees top-notch deliverables, 
+          while our dedicated support team is always ready to help you succeed."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -21,14 +21,13 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+        <span className="text-purple">Transform</span> your Online Vision 
+        <span className="text-purple ms-3">Into Reality</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+        Let’s connect today and explore how We can empower your digital success!
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:bhushan776767@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
