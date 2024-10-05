@@ -5,9 +5,9 @@ import { testimonials } from '@/data'
 const Clients = () => {
     return (
         <div className='py-10'  id="testimonials">
-            <h1 className='heading'>
+            <h1 className='heading mb-10'>
                 What clients
-                <span className='text-purple'> say about me</span>
+                <span className='text-purple'> say about Us</span>
             </h1>
 
             <div className='flex flex-col items-center max-lg:mt-10'>
@@ -16,7 +16,7 @@ const Clients = () => {
                         items={testimonials}
                         direction='right'
                         speed='slow'
-
+                        className='text-white-100'
                     />
 
                 </div>
