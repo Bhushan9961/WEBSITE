@@ -39,7 +39,7 @@ const Grid = () => {
                         spareImg={spareImg}
                         img={img}
                         logos={id === 5 ? logos : undefined}
-
+                    
                     />
                 ))}
             </BentoGrid>

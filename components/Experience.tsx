@@ -66,7 +66,7 @@ const Experience = () => {
 
 
     <div className='py-20'>
-      <h1 className='heading text-center'>
+      <h1 className='heading text-center mb-15'>
         Our
         <span className='text-purple ms-3'>Proven Expertise</span>
       </h1>
@@ -89,7 +89,7 @@ const Experience = () => {
                   {card.desc}
                 </p>
                 {card.id === 4 && (
-                  <div className="absolute p-1 -mb-3">
+                  <div className="absolute p-1 -mb-3 ">
                     {loading && (
                       <button
                         className="fixed top-4 right-4 text-black dark:text-white z-[150]"

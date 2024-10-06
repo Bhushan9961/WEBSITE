@@ -1,40 +1,17 @@
 
-
-
-
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 
-const Footer = () => {
-  return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      
-      {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
-        />
-      </div> */}
 
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-        <span className="text-purple">Transform</span> your Online Vision 
-        <span className="text-purple ms-3">Into Reality</span>
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-        Let’s connect today and explore how We can empower your digital success!
-        </p>
-        <a href="mailto:bhushan776767@gmail.com">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
-      </div>
+
+const Footer = () => {
+ 
+
+  return (
+    <footer className="w-full pt-0 pb-10" id="contact">
+
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Rising IT firm

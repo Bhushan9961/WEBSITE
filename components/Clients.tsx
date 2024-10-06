@@ -4,13 +4,13 @@ import { testimonials } from '@/data'
 
 const Clients = () => {
     return (
-        <div className='py-10'  id="testimonials">
+        <div className='py-10 pb-0'  id="testimonials">
             <h1 className='heading mb-10'>
                 What clients
                 <span className='text-purple'> say about Us</span>
             </h1>
 
-            <div className='flex flex-col items-center max-lg:mt-10'>
+            <div className='flex flex-col items-center max-lg:mt-5'>
                 <div className='h-[30vh] md:h-[20rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden '>
                     <InfiniteMovingCards
                         items={testimonials}

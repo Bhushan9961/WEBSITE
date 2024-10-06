@@ -10,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Empowering Success Through Transparent Client Collaboration",
+    title: "Empowering Success Through Transparent Web Development Collaboration",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -21,7 +21,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Connecting with you globally, anytime, anywhere.",
+    title: "Connecting Globally for Seamless Web Development Anytime, Anywhere.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
