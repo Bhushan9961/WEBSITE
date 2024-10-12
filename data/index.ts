@@ -21,8 +21,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Connecting Globally for Seamless Web Development Anytime, Anywhere.",
-    description: "",
+    title: "",
+    description: "Connecting Globally for Seamless Web Development.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -31,7 +31,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Elevate Your Brand with Our Passion and Expertise.",
+    title: "Elevate Your Brand with Our Web Development Expertise.",
     description: "Lets's",    
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -41,7 +41,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Fueling innovation through full-stack coding passion.",
+    title: "Fueling Innovation Through Our Passion for Full-Stack Development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -74,7 +74,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Ready to Start a Project Together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -176,28 +176,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Innovative Solutions",
-    desc: "We craft tailored digital solutions that drive results and empower your business to thrive in a competitive landscape.",
+    desc: "We craft tailored web development solutions</strong> that drive results and empower your business to thrive in a competitive landscape.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Collaborative Excellence",
-    desc: "Our collaborative approach ensures that we align with your vision, fostering innovation and achieving shared goals together.",
+    desc: "Our collaborative web development approach ensures we align with your vision, fostering innovation and achieving shared goals together.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Future-Ready Development",
-    desc: "We leverage the latest technologies and industry best practices to create scalable, secure, and adaptable solutions that evolve with your needs.",
+    desc: "We leverage the latest technologies and best practices in web development  to create scalable, secure, and adaptable solutions that evolve with your needs.",
     className: "md:col-span-2", 
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Unlock Your Potential",
-    desc: `Ignite your success! Join us on a transformative journey click below to elevate your future.`,
+    desc: `Ignite your success! Join us on a transformative web development journey click below to elevate your future.`,
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   }

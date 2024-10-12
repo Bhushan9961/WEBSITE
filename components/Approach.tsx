@@ -1,25 +1,26 @@
 "use client";
-
-
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
+
+
   return (
     <section className="w-full py-20 pt-0">
-    
+
       <h1 className="heading mb-16">
-        Your Partner in <span className="text-purple">Digital Excellence</span>
+        Your Partner in <span className="text-purple">Digital Excellence</span> and <strong>Web Development Success</strong>
       </h1>
+
 
       <div className="mt-10 flex flex-col lg:flex-row items-center justify-center w-full gap-4 ">
 
         <Card
           title="Empowering Innovation"
           icon={<AceternityIcon order="Our Vision" />}
-          des="At Rising IT Firm, our vision is to ignite innovation and empower businesses to excel in a rapidly evolving digital landscape. We are dedicated to being your strategic partner in navigating transformation, ensuring you thrive at every step."
+          des="At Rising IT Firm, our mission is to ignite innovation and empower businesses through web development to excel in a rapidly evolving digital landscape. We are dedicated to being your strategic partner in navigating transformation, ensuring you thrive at every step."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -30,14 +31,14 @@ const Approach = () => {
         <Card
           title="Your Success Matters"
           icon={<AceternityIcon order=" Mission" />}
-          des="We prioritize your success with a collaborative approach, customizing solutions to meet your unique needs while ensuring transparency and flexibility throughout the process."
+          des="We prioritize your success with a collaborative approach to web development , customizing solutions to meet your unique needs while ensuring transparency and flexibility throughout the process."
         >
           <CanvasRevealEffect
             animationSpeed={3}
 
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-             
+
               [255, 166, 158],
               [221, 255, 247],
             ]}
@@ -47,10 +48,9 @@ const Approach = () => {
         </Card>
 
         <Card
-          title="Quality and Support"
+          title="Committed to Excellence"
           icon={<AceternityIcon order="Commitment" />}
-          des="We are committed to excellence. Our rigorous quality assurance guarantees top-notch deliverables, 
-          while our dedicated support team is always ready to help you succeed."
+          des="We are committed to delivering <strong>web development solutions that ensure excellence, from project initiation to completion. Our team is dedicated to maintaining high standards of quality, transparency, and innovation in every project."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -82,7 +82,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-     
+
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center
        dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl "
       style={{
@@ -92,7 +92,7 @@ const Card = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-     
+
       <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -top-3 -right-3 dark:text-white text-black opacity-30" />
@@ -140,7 +140,7 @@ const Card = ({
     </div>
   );
 };
-// add order prop for the Phase number change
+
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
@@ -197,3 +197,5 @@ export const Icon = ({ className, ...rest }: any) => {
     </svg>
   );
 };
+
+
