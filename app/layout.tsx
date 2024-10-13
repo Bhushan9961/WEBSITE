@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Rising It firm",
+  title: "Global Web Minds",
   description: "Your Partner in Digital Excellence",
 };
 

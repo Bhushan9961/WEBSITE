@@ -20,7 +20,7 @@ const Approach = () => {
         <Card
           title="Empowering Innovation"
           icon={<AceternityIcon order="Our Vision" />}
-          des="At Rising IT Firm, our mission is to ignite innovation and empower businesses through web development to excel in a rapidly evolving digital landscape. We are dedicated to being your strategic partner in navigating transformation, ensuring you thrive at every step."
+          des="Global Web Minds, our mission is to ignite innovation and empower businesses through web development to excel in a rapidly evolving digital landscape. We are dedicated to being your strategic partner in navigating transformation, ensuring you thrive at every step."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -181,8 +181,11 @@ const AceternityIcon = ({ order }: { order: string }) => {
     // </svg>
   );
 };
+interface IconProps extends React.SVGProps<SVGSVGElement> {
+  className?: string; // Define className as optional
+}
 
-export const Icon = ({ className, ...rest }: any) => {
+export const Icon = ({ className, ...rest }: IconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

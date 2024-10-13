@@ -37,7 +37,6 @@ export const BentoGridItem = ({
   img,
   imgClassName,
   titleClassName,
-  spareImg,
   logos,
 
 }: {
@@ -51,8 +50,6 @@ export const BentoGridItem = ({
   spareImg?: string;
   logos?: { img: string; title: string }[];
 }) => {
-  const leftLists = ["ReactJS", "Express", "NodeJS"];
-  const rightLists = ["VueJS", "NuxtJS", "NextJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -97,13 +94,21 @@ export const BentoGridItem = ({
 
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
-          {img && (
-            <img
+          {/* {img && (
+            <image
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover object-center ")}
             />
-          )}
+          )} */}
+          {img && (
+  <img
+    src={img}
+    alt={img}
+    className={cn(imgClassName, "object-cover object-center")}
+  />
+)}
+
         </div>
         
 
@@ -113,7 +118,7 @@ export const BentoGridItem = ({
               <div key={rowIndex} className="flex justify-center space-x-10 mb-4">
                 {logoRow.map((logo, index) => (
                   <div key={index} className="flex flex-col items-center">
-                    <img src={logo.img} alt={`logo-${index}`} className="h-20 w-20 m-3" /> 
+                    <image src={logo.img} alt={`logo-${index}`} className="h-20 w-20 m-3" /> 
                     <h3 className="mt-1 text-center text-sm font-semibold">{logo.title}</h3>
                   </div>
                 ))}

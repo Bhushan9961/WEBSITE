@@ -3,11 +3,11 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": true, // Set to true for strict type checking
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node", // Ensure module resolution is set to node
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -17,10 +17,24 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Ensure baseUrl is set for path aliases
     "paths": {
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ui/Spotlight"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/ui/Spotlight",
+    "components/**/*.ts",
+    "pages/**/*.ts",
+    "lib/**/*.ts",
+    "types/**/*.d.ts" // Include custom type declarations
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.js" // Optionally exclude JS if focusing on TS only
+  ]
 }

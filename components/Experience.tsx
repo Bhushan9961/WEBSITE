@@ -63,8 +63,6 @@ const Experience = () => {
 
 
   return (
-
-
     <div className='py-20'>
       <h1 className='heading text-center mb-15'>
         Our
@@ -75,12 +73,14 @@ const Experience = () => {
         {workExperience.map((card) => (
           <Button
             key={card.id}
+            as="button" // Added 'as' prop
             duration={Math.floor(Math.random() * 10000 + 10000)}
             borderRadius='1.75rem'
             className='flex-1 text-white border-neutral-200 dark:border-slate-800 relative'
           >
             <div className='flex lg:flex-row flex-col lg:items-start items-center p-6 gap-4'>
-              <img src={card.thumbnail} alt={card.title} className='lg:w-32 md:w-20 w-16' />
+              {/* Replace <image> with <Image> as shown below */}
+              <Image src={card.thumbnail} alt={card.title} className='lg:w-32 md:w-20 w-16' width={128} height={128} />
               <div className='flex-1'>
                 <h1 className='text-start text-xl md:text-2xl font-bold'>
                   {card.title}
@@ -116,8 +116,8 @@ const Experience = () => {
         ))}
       </div>
     </div>
-
   )
+
 }
 
 export default Experience

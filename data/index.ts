@@ -123,17 +123,17 @@ export const testimonials = [
   
 
   {
-    quote:"Rising IT Firm is a trailblazer in website and web application development. Their innovative solutions are truly transformative and consistently exceed my expectations. Working with them on my healing website, Light and Hope, built with Nuxt.js, has been an exceptional experience. The website not only looks stunning but also delivers a smooth, user-friendly interface. The team’s support is outstanding, offering knowledgeable assistance 24/7. I’m thankful for their expertise, which made this journey remarkable!",
+    quote:"Global Web Minds is a trailblazer in website and web application development. Their innovative solutions are truly transformative and consistently exceed my expectations. Working with them on my healing website, Light and Hope, built with Nuxt.js, has been an exceptional experience. The website not only looks stunning but also delivers a smooth, user-friendly interface. The team’s support is outstanding, offering knowledgeable assistance 24/7. I’m thankful for their expertise, which made this journey remarkable!",
     name: "Nastran",
     title: "Founder of light&Hope ,ISRAEL",
   },
   {
-    quote:"Rising IT Firm revolutionized my business with their expertly developed websites and web applications. Their solutions significantly increased output and boosted efficiency, particularly through the full-stack app they built for QuantSoft, our project consultancy company. They effectively addressed our unique challenges and offered tailored solutions that enhanced our performance beyond my expectations. Their expertise and dedication have truly transformed the way we operate!",
+    quote:"Global Web Minds revolutionized my business with their expertly developed websites and web applications. Their solutions significantly increased output and boosted efficiency, particularly through the full-stack app they built for QuantSoft, our project consultancy company. They effectively addressed our unique challenges and offered tailored solutions that enhanced our performance beyond my expectations. Their expertise and dedication have truly transformed the way we operate!",
     name: "Archita Mittal",
     title: "CEO of Quantsoft,Pune",
   },
   {
-    quote:"Rising IT Firm delivered a cost-effective solution tailored to my needs. The customized ERP web app they built for RenukaSoft has made a tangible difference, significantly improving outcomes for my business. Their attention to detail and commitment to excellence not only saved me money but also provided real value for my investment. Working with them has been a transformative experience!",
+    quote:"Global Web Minds delivered a cost-effective solution tailored to my needs. The customized ERP web app they built for RenukaSoft has made a tangible difference, significantly improving outcomes for my business. Their attention to detail and commitment to excellence not only saved me money but also provided real value for my investment. Working with them has been a transformative experience!",
     name: "Manish kothalkar",
     title: "Managing partner at Renukasoftec,Indore",
   },
