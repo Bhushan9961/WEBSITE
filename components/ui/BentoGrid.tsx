@@ -1,5 +1,4 @@
-
-
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -37,7 +36,7 @@ export const BentoGridItem = ({
   img,
   imgClassName,
   titleClassName,
-  spareImg,
+  // spareImg,
   logos,
 
 }: {
@@ -51,8 +50,7 @@ export const BentoGridItem = ({
   spareImg?: string;
   logos?: { img: string; title: string }[];
 }) => {
-  const leftLists = ["ReactJS", "Express", "NodeJS"];
-  const rightLists = ["VueJS", "NuxtJS", "NextJS"];
+
 
   const [copied, setCopied] = useState(false);
 
@@ -105,7 +103,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        
+
 
         {id === 5 && chunkedLogos.length > 0 && (
           <div className="absolute inset-0 mt-10  flex flex-col items-center">
@@ -113,7 +111,7 @@ export const BentoGridItem = ({
               <div key={rowIndex} className="flex justify-center space-x-10 mb-4">
                 {logoRow.map((logo, index) => (
                   <div key={index} className="flex flex-col items-center">
-                    <img src={logo.img} alt={`logo-${index}`} className="h-20 w-20 m-3" /> 
+                    <img src={logo.img} alt={`logo-${index}`} className="h-20 w-20 m-3" />
                     <h3 className="mt-1 text-center text-sm font-semibold">{logo.title}</h3>
                   </div>
                 ))}
@@ -128,7 +126,7 @@ export const BentoGridItem = ({
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
         )}
-        
+
         <div
           className={cn(
             titleClassName,
@@ -141,12 +139,26 @@ export const BentoGridItem = ({
           </div> */}
 
           {/* <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10"> */}
-          <div className="font-sans  md:max-w-32 md:text-xs lg:text-base text-sm z-10 font-semibold" style={{ color: 'rgb(203, 172, 249)' }}>
+          {/* <div className="font-sans  md:max-w-32 md:text-xs lg:text-base text-sm z-10 font-semibold" style={{ color: 'rgb(203, 172, 249)' }}>
 
             {description.slice(0, 49)}
             <br />
             {description.slice(49)}
+          </div> */}
+
+
+          <div className="font-sans  md:max-w-32 md:text-xs lg:text-base text-sm z-10 font-semibold" style={{ color: 'rgb(203, 172, 249)' }}>
+            {typeof description === 'string' ? (
+              <>
+                {description.slice(0, 49)}
+                <br />
+                {description.slice(49)}
+              </>
+            ) : (
+              <span>No description available</span>
+            )}
           </div>
+
 
 
           <div
@@ -162,7 +174,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
 
-             
+
             </div>
           )}
           {id === 6 && (

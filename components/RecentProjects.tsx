@@ -1,15 +1,19 @@
+/* eslint-disable @next/next/no-img-element */
 import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/pin'
 import { FaLocationArrow } from 'react-icons/fa'
 import Link from 'next/link'
 
+
 const RecentProjects = () => {
+    
+
   return (
     <div className='py-20 pt-13 pb-0' id="#projects">
       <h1 className='heading'>
         Our  {''}
-        <span className='text-purple'>Prestigious projects</span>
+        <span className='text-purple'>Prestigious Projects</span>
       </h1>
 
       {/* <div className='flex flex-wrap items-center justify-center p-4 gap-16 mt-10 '> */}

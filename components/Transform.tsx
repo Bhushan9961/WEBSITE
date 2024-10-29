@@ -6,7 +6,7 @@ const Transform = () => {
   return (
     <div className="flex flex-col items-center my-10 mt-0">
         <h1 className="heading lg:max-w-[45vw]">
-          <span className="text-purple">Transform</span> your Online Vision
+          <span className="text-purple">Transform</span> Your Online Vision
           <span className="text-purple ms-3">Into Reality</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">

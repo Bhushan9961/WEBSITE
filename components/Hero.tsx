@@ -3,10 +3,11 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
-import { devNull } from 'os'
+
 
 
 const Hero = () => {
+  const contactNumber = "+917756949838";
   return (
     <div className='pb-0 pt-36' id="/">
       <div>
@@ -27,12 +28,13 @@ const Hero = () => {
           <h1 className='uppercase tracking-widest text-lg text-center text-blue-100 max-w-80'>We are</h1>
           <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl capitalize' words="Shaping visions into flawless digital experiences."/>
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-           A passionate team of full-stack developers, turning ideas into seamless and affordable web solutions.
+           {/* A passionate team of full-stack developers, turning ideas into seamless and affordable web solutions. */}
+           A passionate team of full-stack freelancers, transforming ideas into seamless and affordable website development solutions.
           </p>
           
-          <a href="#about">
+          <a href={`tel:${contactNumber}`}>
             <MagicButton
-              title="Show my work"
+              title="Connect Us"
               icon={<FaLocationArrow />}
               position="right"
             />

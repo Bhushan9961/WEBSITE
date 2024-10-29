@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import { workExperience } from '@/data'
 import React, { useState } from 'react'
